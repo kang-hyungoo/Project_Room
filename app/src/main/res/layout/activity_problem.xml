@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ProblemActivity">
+
+    <ImageView
+        android:id="@+id/problemView"
+        android:layout_width="550dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/problemText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff008888"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/hintText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="힌트 내역"
+            android:textSize="14dp"
+            android:background="#ff00ffff"
+            android:layout_weight="6"
+            />
+
+        <EditText
+            android:id="@+id/answerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="abcdefghijklmnopqrstuvwxyz1234567890"
+            android:hint="영어소문자, 숫자만 입력 가능"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/answerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick_answer_Button"
+            android:text="정답 입력" />
+
+        <Button
+            android:id="@+id/hintViewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick_hint_button"
+            android:text="힌트 보기" />
+
+        <Button
+            android:id="@+id/problemExitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick_exit_button"
+            android:text="문제 끄기" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

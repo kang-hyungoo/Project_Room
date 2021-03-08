@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndActivity">
+
+    <ImageView
+        android:id="@+id/deskView"
+        android:layout_width="751dp"
+        android:layout_height="497dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/deskLetterButton"
+        android:layout_width="174dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="502dp"
+        android:layout_marginRight="502dp"
+        android:layout_marginBottom="25dp"
+        android:background="#00000000"
+        android:onClick="onClick_deskLetterButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/moneyButton"
+        android:layout_width="157dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="463dp"
+        android:layout_marginRight="463dp"
+        android:layout_marginBottom="240dp"
+        android:background="#00000000"
+        android:onClick="onClick_money_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/BoxView"
+        android:layout_width="211dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="383dp"
+        android:layout_marginLeft="383dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape1View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="407dp"
+        android:layout_marginLeft="407dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginRight="303dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape2View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="428dp"
+        android:layout_marginLeft="428dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginRight="282dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape3View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="449dp"
+        android:layout_marginLeft="449dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape4View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="470dp"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape5View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="491dp"
+        android:layout_marginLeft="491dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginRight="219dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape6View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="512dp"
+        android:layout_marginLeft="512dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape7View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="533dp"
+        android:layout_marginLeft="533dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tape8View"
+        android:layout_width="21dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="554dp"
+        android:layout_marginLeft="554dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/letterButton"
+        android:layout_width="336dp"
+        android:layout_height="399dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="6dp"
+        android:background="#00000000"
+        android:onClick="onClick_letterButton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterText"
+        android:layout_width="336dp"
+        android:layout_height="399dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="6dp"
+        android:background="#00000000"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="40dp"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/game_end_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="627dp"
+        android:layout_marginLeft="627dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="onClick_game_end_Button"
+        android:text="나가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endStartView"
+        android:layout_width="736dp"
+        android:layout_height="417dp"
+        android:background="#88000000"
+        android:gravity="center"
+        android:text="몇일 후 어느방에서..."
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endEndingView"
+        android:layout_width="736dp"
+        android:layout_height="417dp"
+        android:background="#ff000000"
+        android:gravity="center"
+        android:text="좋은 작품이 되어달라고 친구"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
